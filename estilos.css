@@ -1,0 +1,23 @@
+body{
+    background: #e9e9e9
+}
+.proyecto{
+    width: auto;
+    height: auto;
+    background: #001fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+.elemento{
+    color: #f7cbf5;
+    margin: 5px;
+    width: 15%;
+    height: auto;
+    background: transparent;
+    text-align: center;
+    align-self: center;
+}
