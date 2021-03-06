@@ -11,6 +11,7 @@ body{
     justify-content: center;
     
     
+    
 }
 .elemento{
     color: #f7cbf5;
@@ -21,3 +22,12 @@ body{
     text-align: center;
     align-self: center;
 }
+@media only screen and (max-width: 600px) {
+    .elemento, .proyecto{
+    height: auto;
+    width: auto;
+    background-color: lightblue;
+    color:lightcoral;
+    }
+
+  }
