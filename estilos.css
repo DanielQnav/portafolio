@@ -3,25 +3,61 @@ body{
 }
 .proyecto{
     width: auto;
-    height: auto;
+    height:auto;
     background: #001fff;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    
-    
-    
 }
+      
 .elemento{
     color: #f7cbf5;
     margin: 5px;
     width: 15%;
     height: auto;
     background: transparent;
-    text-align: center;
-    align-self: center;
+    text-align:center;
+    align-self:baseline;
+    justify-content: center;
 }
+img{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+.footer{
+    width: auto; 
+    background:cornflowerblue;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: start;
+    color:white
+    
+}
+
+.elemento-footer{
+    
+    color: #f7cbf5;
+    margin: 1px;
+    width: 30%;
+    height: auto;
+    background: transparent;
+    text-align:start;
+    align-self:baseline;
+    justify-content: center;
+}
+:hover{
+    color: red;
+}
+
+#imgrrss{
+    height: 10%;
+    width: 10%;
+    justify-content: center;
+}
+    
 @media only screen and (max-width: 600px) {
     .elemento, .proyecto{
     height: auto;
@@ -31,3 +67,9 @@ body{
     }
 
   }
+@media only screen and (max-width: 600px){
+    img{
+        height: 25%;
+        width: 25%;
+    }
+}
