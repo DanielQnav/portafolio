@@ -29,7 +29,7 @@ img{
 }
 .footer{
     width: auto; 
-    background:cornflowerblue;
+    background:#001fff;
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
