@@ -69,11 +69,11 @@ img{
 }
     
 @media only screen and (max-width: 600px) {
-    .elemento, .proyecto{
+    .elemento, .proyecto, .elemento-footer{
     height: auto;
     width: auto;
     background-color: lightblue;
-    color:lightcoral;
+    color:black;
     }
 
   }
