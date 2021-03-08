@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     text-align: center; 
     font-family: 'Courier New', Courier, monospace;
@@ -73,12 +74,98 @@ nav ul span {
 .imagenes {
     width: ;
 
+=======
+body{
+    background:#001fff;
+
+}
+.proyecto{
+    width: auto;
+    height:auto;
+    background: #001fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+      
+.elemento{
+    color: #f7cbf5;
+    margin: 5px;
+    width: 15%;
+    height: auto;
+    background: transparent;
+    text-align:center;
+    align-self:baseline;
+    justify-content: center;
+}
+img{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+.footer{
+    width: auto; 
+    background:#001fff;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: start;
+    color:white
+    
+}
+
+.elemento-footer{
+    
+    color: #f7cbf5;
+    margin: 1px;
+    width: 30%;
+    height: auto;
+    background: transparent;
+    text-align:center;
+    align-self:baseline;
+    justify-content: center;
+>>>>>>> 928fdb51cd3be0265cb78fcfe0067cd18d6d1639
 }
 
 
 
+<<<<<<< HEAD
 
 
 
 
 
+=======
+#imgrrss{
+    height: 10%;
+    width: 10%;
+    justify-content: center;
+}
+#derechos{
+    height: auto;
+    width: auto;
+    justify-content: left;
+    align-items: left;
+    text-align: center;
+    align-self: center;
+    background:transparent;
+
+}
+    
+@media only screen and (max-width: 600px) {
+    .elemento, .proyecto, .elemento-footer{
+    height: auto;
+    width: auto;
+    background-color: lightblue;
+    color:black;
+    }
+
+  }
+@media only screen and (max-width: 600px){
+    img{
+        height: 25%;
+        width: 25%;
+    }
+}
+>>>>>>> 928fdb51cd3be0265cb78fcfe0067cd18d6d1639
