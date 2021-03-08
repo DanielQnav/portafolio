@@ -1,3 +1,80 @@
+<<<<<<< HEAD
+body {
+    text-align: center; 
+    font-family: 'Courier New', Courier, monospace;
+    color: #001FFF; 
+    background-color: #F7CBF5;
+    margin: 0;
+    }
+
+body * { 
+    margin: 0;
+    border: 0;
+    padding: 0;
+    }
+
+.azul {
+        background: #001FFF; 
+        color: #F7CBF5;
+        width: 100%;
+        height: 5mm;
+        }
+    
+.azul a{ color: #F7CBF5;
+        margin: 5mm;
+        text-decoration: none;
+       
+        }
+
+nav {
+        text-align: left;
+        padding: 2rem 4rem;
+        position: fixed;
+        width:100%;
+            }
+
+nav ul {
+        list-style-type: none;
+            }
+nav ul li {
+            display: inline-block; margin: 0 1cm;
+            }
+
+.banner {
+    margin-top: 0cm;
+    top: 100%;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    /* UI Properties */
+    background: transparent  100% 100% no-repeat padding-box;
+    opacity: 1;
+
+} 
+         
+.icono svg{ 
+    width: 3cm;
+  
+    fill: #F7CBF5;
+}
+
+nav ul span {
+    display: inline-block; margin: 0 1em;
+    vertical-align: middle; 
+    }
+
+.inicio {
+ 
+    column-count: 4;
+    column-gap: 3em;
+	column-rule: 1px solid #001FFF;
+	column-width: 140px;
+}
+
+.imagenes {
+    width: ;
+
+=======
 body{
     background:#001fff;
 
@@ -48,10 +125,18 @@ img{
     text-align:center;
     align-self:baseline;
     justify-content: center;
+>>>>>>> 928fdb51cd3be0265cb78fcfe0067cd18d6d1639
 }
 
 
 
+<<<<<<< HEAD
+
+
+
+
+
+=======
 #imgrrss{
     height: 10%;
     width: 10%;
@@ -83,3 +168,4 @@ img{
         width: 25%;
     }
 }
+>>>>>>> 928fdb51cd3be0265cb78fcfe0067cd18d6d1639
