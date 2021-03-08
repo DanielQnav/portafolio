@@ -182,7 +182,7 @@ img{
 }
     
 @media only screen and (max-width: 600px) {
-    body {
+   body, .eventos, .compseccion,.elemento, .elemento-footer, .footer, .proyecto {
     height: auto;
     width: auto;
     background-color: lightblue;
