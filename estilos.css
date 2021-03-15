@@ -64,10 +64,15 @@ nav ul span {
 
 .inicio {
  
-    column-count: 4;
-    column-gap: 3em;
-	column-rule: 1px solid #001FFF;
-	column-width: 140px;
+    width: auto;
+    height:auto;
+    background: #F7CBF5;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+
 }
 
 .imagenes {
@@ -96,6 +101,8 @@ nav ul span {
     text-align:center;
     align-self:baseline;
     justify-content: center;
+    padding: 5%;
+    
 }
 
 img{
@@ -139,16 +146,6 @@ img{
     align-self: baseline;
     align-content: space-around;
    
-}
-.compseccion{
-    width: 25%;
-    height:25%;
-    background: #F7CBF5;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: space-around;
 }
 .encabezado-trabajo{
         width: 100%;
